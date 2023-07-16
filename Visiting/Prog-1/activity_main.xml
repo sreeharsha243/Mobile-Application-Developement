@@ -4,48 +4,130 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:textAlignment="center"
     tools:context=".MainActivity">
 
-
-    <TextView
-        android:id="@+id/textView"
+    <EditText
+        android:id="@+id/editTextTextEmailAddress2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="157dp"
-        android:layout_marginBottom="563dp"
-        android:text="JNNCE, Shivamogga"
-        android:textColor="#9C27B0"
-        android:textSize="24sp" />
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="255dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text=""
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="410dp" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="95dp"
-        android:layout_height="106dp"
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="31dp"
-        android:layout_marginBottom="563dp"
-        app:srcCompat="@drawable/jnncelogo" />
-
-    <View
-        android:id="@+id/divider"
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="502dp"
-        android:background="?android:attr/listDivider" />
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="190dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:text=""
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="468dp" />
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="342dp"
-        android:layout_height="79dp"
+        android:id="@+id/textView4"
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="41dp"
-        android:layout_marginBottom="304dp"
-        android:text="Mr.XYZ"
-        android:textColor="#9C27B0"
-        android:textSize="34sp" />
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="316dp"
+        android:text=""
+        android:textAlignment="viewStart"
+        android:textColor="#131313"
+        android:textSize="34sp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="365dp" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="409dp"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="290dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="115dp"
+        android:layout_height="37dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="149dp"
+        android:layout_marginBottom="384dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#121111"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="315dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="187dp"
+        android:layout_marginBottom="435dp"
+        android:text="ID"
+        android:textAlignment="center"
+        android:textColor="#DA044C"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="194dp"
+        tools:layout_editor_absoluteY="176dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="97dp"
+        android:layout_marginBottom="160dp"
+        android:text=""
+        android:textColor="#1B1919"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="146dp"
+        android:layout_marginBottom="506dp"
+        android:text="JNNCE"
+        android:textAlignment="center"
+        android:textColor="#0505FA"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="137dp"
+        android:layout_height="158dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="137dp"
+        android:layout_marginBottom="561dp"
+        app:srcCompat="@drawable/jnncelogo" />
+
 </RelativeLayout>
